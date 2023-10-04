@@ -1,0 +1,2405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="fp3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="Badge_Outline" color="11" fill="1" visible="no" active="no"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="no"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="no"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="no"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="26" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="26" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="26" x2="26" y2="26" width="0" layer="20"/>
+<wire x1="0" y1="78" x2="0" y2="26" width="0" layer="20"/>
+<wire x1="0" y1="78" x2="26" y2="78" width="0" layer="20"/>
+<wire x1="0" y1="104" x2="0" y2="78" width="0" layer="20"/>
+<wire x1="0" y1="104" x2="26" y2="104" width="0" layer="20"/>
+<wire x1="26" y1="130" x2="0" y2="130" width="0" layer="20"/>
+<wire x1="0" y1="130" x2="0" y2="104" width="0" layer="20"/>
+<wire x1="26" y1="0" x2="52" y2="0" width="0" layer="20"/>
+<wire x1="26" y1="26" x2="26" y2="0" width="0" layer="20"/>
+<wire x1="26" y1="26" x2="52" y2="26" width="0" layer="20"/>
+<wire x1="26" y1="78" x2="52" y2="78" width="0" layer="20"/>
+<wire x1="26" y1="104" x2="26" y2="78" width="0" layer="20"/>
+<wire x1="26" y1="104" x2="52" y2="104" width="0" layer="20"/>
+<wire x1="52" y1="130" x2="26" y2="130" width="0" layer="20"/>
+<wire x1="26" y1="130" x2="26" y2="104" width="0" layer="20"/>
+<wire x1="52" y1="0" x2="78" y2="0" width="0" layer="20"/>
+<wire x1="52" y1="26" x2="52" y2="0" width="0" layer="20"/>
+<wire x1="52" y1="26" x2="78" y2="26" width="0" layer="20"/>
+<wire x1="52" y1="52" x2="52" y2="26" width="0" layer="20"/>
+<wire x1="52" y1="52" x2="78" y2="52" width="0" layer="20"/>
+<wire x1="52" y1="78" x2="52" y2="52" width="0" layer="20"/>
+<wire x1="52" y1="78" x2="78" y2="78" width="0" layer="20"/>
+<wire x1="52" y1="104" x2="52" y2="78" width="0" layer="20"/>
+<wire x1="52" y1="104" x2="78" y2="104" width="0" layer="20"/>
+<wire x1="78" y1="130" x2="52" y2="130" width="0" layer="20"/>
+<wire x1="52" y1="130" x2="52" y2="104" width="0" layer="20"/>
+<wire x1="78" y1="0" x2="104" y2="0" width="0" layer="20"/>
+<wire x1="78" y1="26" x2="78" y2="0" width="0" layer="20"/>
+<wire x1="78" y1="26" x2="104" y2="26" width="0" layer="20"/>
+<wire x1="78" y1="52" x2="78" y2="26" width="0" layer="20"/>
+<wire x1="78" y1="52" x2="104" y2="52" width="0" layer="20"/>
+<wire x1="78" y1="78" x2="78" y2="52" width="0" layer="20"/>
+<wire x1="78" y1="78" x2="104" y2="78" width="0" layer="20"/>
+<wire x1="78" y1="104" x2="78" y2="78" width="0" layer="20"/>
+<wire x1="78" y1="104" x2="104" y2="104" width="0" layer="20"/>
+<wire x1="104" y1="130" x2="78" y2="130" width="0" layer="20"/>
+<wire x1="78" y1="130" x2="78" y2="104" width="0" layer="20"/>
+<wire x1="104" y1="0" x2="130" y2="0" width="0" layer="20"/>
+<wire x1="130" y1="0" x2="130" y2="26" width="0" layer="20"/>
+<wire x1="104" y1="26" x2="104" y2="0" width="0" layer="20"/>
+<wire x1="104" y1="26" x2="130" y2="26" width="0" layer="20"/>
+<wire x1="130" y1="26" x2="130" y2="52" width="0" layer="20"/>
+<wire x1="104" y1="52" x2="104" y2="26" width="0" layer="20"/>
+<wire x1="104" y1="52" x2="130" y2="52" width="0" layer="20"/>
+<wire x1="130" y1="52" x2="130" y2="78" width="0" layer="20"/>
+<wire x1="104" y1="78" x2="104" y2="52" width="0" layer="20"/>
+<wire x1="104" y1="78" x2="130" y2="78" width="0" layer="20"/>
+<wire x1="130" y1="78" x2="130" y2="104" width="0" layer="20"/>
+<wire x1="104" y1="104" x2="104" y2="78" width="0" layer="20"/>
+<wire x1="104" y1="104" x2="130" y2="104" width="0" layer="20"/>
+<wire x1="130" y1="104" x2="130" y2="130" width="0" layer="20"/>
+<wire x1="130" y1="130" x2="104" y2="130" width="0" layer="20"/>
+<wire x1="104" y1="130" x2="104" y2="104" width="0" layer="20"/>
+</plain>
+<libraries>
+<library name="opto-trans-siemens" urn="urn:adsk.eagle:library:317">
+<description>&lt;b&gt;Siemens Opto Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="BPX65" urn="urn:adsk.eagle:footprint:21776/1" library_version="3">
+<description>&lt;B&gt;PHOTO DIODE&lt;/B&gt;</description>
+<wire x1="-2.7432" y1="0.4572" x2="-3.556" y2="0.4572" width="0.1524" layer="21"/>
+<wire x1="-3.556" y1="0.4572" x2="-3.556" y2="-0.4826" width="0.1524" layer="21"/>
+<wire x1="-3.556" y1="-0.4826" x2="-2.7178" y2="-0.4826" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="0" x2="0" y2="1.905" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="0" x2="0" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="0" width="0.1524" layer="21" curve="90"/>
+<wire x1="0" y1="-1.905" x2="1.905" y2="0" width="0.1524" layer="21" curve="90"/>
+<circle x="0" y="-0.0254" radius="2.7686" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.159" width="0.1524" layer="21"/>
+<pad name="A" x="-0.889" y="-0.889" drill="0.8128" shape="octagon"/>
+<pad name="K" x="0.889" y="0.889" drill="0.8128" shape="octagon"/>
+<text x="3.175" y="0" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.175" y="-1.905" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="BPX65" urn="urn:adsk.eagle:package:21791/1" type="box" library_version="3">
+<description>PHOTO DIODE</description>
+<packageinstances>
+<packageinstance name="BPX65"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="pinhead" urn="urn:adsk.eagle:library:325">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X05" urn="urn:adsk.eagle:footprint:22354/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="1.27" x2="-4.445" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-1.27" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="0.635" x2="-6.35" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="1.27" x2="-6.35" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-0.635" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-1.27" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-5.08" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="5.08" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-6.4262" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-6.35" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X05" urn="urn:adsk.eagle:package:22469/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X05"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="ElcPartsLibrary">
+<packages>
+<package name="LRG_COUGAR">
+<wire x1="3.1496" y1="10.4648" x2="0.9652" y2="11.7094" width="0.508" layer="25"/>
+<wire x1="0.9652" y1="11.7094" x2="0.381" y2="10.795" width="0.508" layer="25"/>
+<wire x1="0.381" y1="10.795" x2="0.5588" y2="8.3312" width="0.508" layer="25"/>
+<wire x1="0.5588" y1="8.3312" x2="2.1336" y2="7.9502" width="0.508" layer="25"/>
+<wire x1="2.667" y1="9.4996" x2="5.0038" y2="10.16" width="0.508" layer="25"/>
+<wire x1="5.0038" y1="10.16" x2="8.5598" y2="9.3472" width="0.508" layer="25"/>
+<wire x1="7.747" y1="10.2108" x2="9.6774" y2="11.2776" width="0.508" layer="25"/>
+<wire x1="9.6774" y1="11.2776" x2="10.3886" y2="10.8966" width="0.508" layer="25"/>
+<wire x1="10.3886" y1="10.8966" x2="9.8806" y2="8.4836" width="0.508" layer="25"/>
+<wire x1="9.8806" y1="8.4836" x2="8.6868" y2="8.128" width="0.508" layer="25"/>
+<wire x1="7.7978" y1="8.3312" x2="7.112" y2="7.9248" width="0.508" layer="25"/>
+<wire x1="7.112" y1="7.9248" x2="6.6548" y2="6.8072" width="0.508" layer="25"/>
+<wire x1="4.0132" y1="8.4836" x2="4.7752" y2="8.001" width="0.508" layer="25"/>
+<wire x1="4.7752" y1="8.001" x2="5.08" y2="7.0612" width="0.508" layer="25"/>
+<wire x1="0.8636" y1="7.2644" x2="1.0668" y2="4.5466" width="0.508" layer="25"/>
+<wire x1="1.0668" y1="4.5466" x2="2.7432" y2="4.0132" width="0.508" layer="25"/>
+<wire x1="2.7432" y1="4.0132" x2="3.8608" y2="4.699" width="0.508" layer="25"/>
+<wire x1="2.3368" y1="6.4008" x2="3.2004" y2="6.8072" width="0.508" layer="25"/>
+<wire x1="3.2004" y1="6.8072" x2="4.445" y2="6.35" width="0.508" layer="25"/>
+<wire x1="4.445" y1="6.35" x2="4.9022" y2="5.461" width="0.508" layer="25"/>
+<wire x1="4.9022" y1="5.461" x2="4.5466" y2="3.8608" width="0.508" layer="25"/>
+<wire x1="4.5466" y1="3.8608" x2="4.8514" y2="3.1242" width="0.508" layer="25"/>
+<wire x1="4.8514" y1="3.1242" x2="6.7056" y2="3.0734" width="0.508" layer="25"/>
+<wire x1="6.7056" y1="3.0734" x2="7.0612" y2="3.4798" width="0.508" layer="25"/>
+<wire x1="7.0612" y1="3.4798" x2="6.5278" y2="5.0546" width="0.508" layer="25"/>
+<wire x1="6.5278" y1="5.0546" x2="6.9342" y2="5.8928" width="0.508" layer="25"/>
+<wire x1="6.9342" y1="5.8928" x2="8.1534" y2="6.35" width="0.508" layer="25"/>
+<wire x1="8.1534" y1="6.35" x2="8.6614" y2="6.1722" width="0.508" layer="25"/>
+<wire x1="9.398" y1="7.2898" x2="9.8806" y2="6.2738" width="0.508" layer="25"/>
+<wire x1="9.8806" y1="6.2738" x2="9.5758" y2="4.7244" width="0.508" layer="25"/>
+<wire x1="9.5758" y1="4.7244" x2="8.636" y2="4.191" width="0.508" layer="25"/>
+<wire x1="8.636" y1="4.191" x2="7.747" y2="4.5974" width="0.508" layer="25"/>
+<wire x1="8.3566" y1="3.302" x2="8.001" y2="2.0574" width="0.508" layer="25"/>
+<wire x1="8.001" y1="2.0574" x2="7.4676" y2="1.524" width="0.508" layer="25"/>
+<wire x1="7.4676" y1="1.524" x2="6.604" y2="1.9558" width="0.508" layer="25"/>
+<wire x1="5.7658" y1="2.3114" x2="5.7912" y2="1.8288" width="0.508" layer="25"/>
+<wire x1="5.7912" y1="1.8288" x2="3.7338" y2="1.524" width="0.508" layer="25"/>
+<wire x1="3.7338" y1="1.524" x2="3.0226" y2="1.9304" width="0.508" layer="25"/>
+<wire x1="3.0226" y1="1.9304" x2="2.794" y2="3.175" width="0.508" layer="25"/>
+<wire x1="4.2164" y1="0.7874" x2="5.08" y2="0.2794" width="0.508" layer="25"/>
+<wire x1="5.08" y1="0.2794" x2="6.0198" y2="0.2286" width="0.508" layer="25"/>
+<wire x1="6.0198" y1="0.2286" x2="6.6294" y2="0.762" width="0.508" layer="25"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="jlcpcb-2layers">
+<description language="en">&lt;b&gt;JLCPCB design rules (2 layers)&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Board thickness: 1.6mm&lt;/li&gt;
+&lt;li&gt;Copper weight: 1oz (35um)&lt;/li&gt;
+&lt;li&gt;Note: annular ring aren't minimal&lt;/li&gt;
+&lt;/ul&gt;</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.6mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="5mil"/>
+<param name="mdWirePad" value="5mil"/>
+<param name="mdWireVia" value="5mil"/>
+<param name="mdPadPad" value="5mil"/>
+<param name="mdPadVia" value="5mil"/>
+<param name="mdViaVia" value="5mil"/>
+<param name="mdSmdPad" value="5mil"/>
+<param name="mdSmdVia" value="5mil"/>
+<param name="mdSmdSmd" value="5mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="0.2mm"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="5mil"/>
+<param name="msDrill" value="0.3mm"/>
+<param name="msMicroVia" value="0.3mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.4"/>
+<param name="rvPadInner" value="0"/>
+<param name="rvPadBottom" value="0.4"/>
+<param name="rvViaOuter" value="0"/>
+<param name="rvViaInner" value="0"/>
+<param name="rvMicroViaOuter" value="0"/>
+<param name="rvMicroViaInner" value="0"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="80mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="80mil"/>
+<param name="rlMinViaOuter" value="3mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="3mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="D1" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="3" y="3" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="-0.81" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="-0.81" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="-0.81" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="-0.81" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="-0.81" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D2" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="23" y="3" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="11.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="11.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="11.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="11.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="11.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D3" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="23" y="23" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="5.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="5.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="5.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="5.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="5.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D4" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="3" y="23" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="-21.13" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="-21.13" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="-21.13" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="-21.13" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="-21.13" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="3" y="13.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="32.21" y="33.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="6.175" y="7.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$2" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="19.11" y="7.89" smashed="yes" rot="R90"/>
+<element name="D5" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="3" y="29" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="-0.81" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="-0.81" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="-0.81" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="-0.81" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="-0.81" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D6" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="23" y="29" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="11.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="11.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="11.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="11.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="11.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D7" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="23" y="49" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="5.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="5.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="5.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="5.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="5.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D8" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="3" y="49" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="-21.13" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="-21.13" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="-21.13" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="-21.13" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="-21.13" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="3" y="39.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="32.21" y="59.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="6.175" y="33.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$1" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="19.11" y="33.89" smashed="yes" rot="R90"/>
+<element name="D9" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="3" y="55" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="-0.81" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="-0.81" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="-0.81" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="-0.81" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="-0.81" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D10" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="23" y="55" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="11.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="11.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="11.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="11.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="11.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D11" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="23" y="75" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="5.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="5.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="5.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="5.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="5.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D12" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="3" y="75" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="-21.13" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="-21.13" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="-21.13" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="-21.13" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="-21.13" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="3" y="65.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="32.21" y="85.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="6.175" y="59.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$3" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="19.11" y="59.89" smashed="yes" rot="R90"/>
+<element name="D13" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="3" y="81" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="-0.81" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="-0.81" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="-0.81" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="-0.81" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="-0.81" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D14" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="23" y="81" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="11.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="11.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="11.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="11.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="11.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D15" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="23" y="101" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="5.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="5.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="5.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="5.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="5.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D16" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="3" y="101" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="-21.13" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="-21.13" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="-21.13" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="-21.13" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="-21.13" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="3" y="91.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="32.21" y="111.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="6.175" y="85.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$4" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="19.11" y="85.89" smashed="yes" rot="R90"/>
+<element name="D17" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="3" y="107" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="-0.81" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="-0.81" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="-0.81" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="-0.81" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="-0.81" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D18" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="23" y="107" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="11.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="11.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="11.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="11.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="11.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D19" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="23" y="127" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="5.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="5.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="5.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="5.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="5.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D20" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="3" y="127" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="-21.13" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="-21.13" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="-21.13" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="-21.13" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="-21.13" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="3" y="117.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="32.21" y="137.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="6.175" y="111.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$5" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="19.11" y="111.89" smashed="yes" rot="R90"/>
+<element name="D21" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="29" y="3" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="25.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="25.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="25.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="25.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="25.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D22" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="49" y="3" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="37.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="37.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="37.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="37.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="37.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D23" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="49" y="23" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="31.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="31.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="31.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="31.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="31.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D24" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="29" y="23" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="4.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="4.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="4.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="4.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="4.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP6" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="29" y="13.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="58.21" y="33.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.175" y="7.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$6" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="45.11" y="7.89" smashed="yes" rot="R90"/>
+<element name="D25" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="29" y="29" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="25.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="25.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="25.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="25.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="25.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D26" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="49" y="29" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="37.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="37.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="37.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="37.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="37.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D27" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="49" y="49" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="31.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="31.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="31.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="31.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="31.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D28" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="29" y="49" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="4.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="4.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="4.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="4.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="4.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP7" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="29" y="39.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="58.21" y="59.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.175" y="33.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$7" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="45.11" y="33.89" smashed="yes" rot="R90"/>
+<element name="D29" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="29" y="55" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="25.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="25.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="25.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="25.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="25.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D30" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="49" y="55" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="37.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="37.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="37.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="37.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="37.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D31" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="49" y="75" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="31.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="31.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="31.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="31.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="31.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D32" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="29" y="75" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="4.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="4.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="4.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="4.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="4.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP8" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="29" y="65.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="58.21" y="85.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.175" y="59.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$8" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="45.11" y="59.89" smashed="yes" rot="R90"/>
+<element name="D33" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="29" y="81" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="25.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="25.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="25.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="25.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="25.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D34" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="49" y="81" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="37.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="37.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="37.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="37.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="37.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D35" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="49" y="101" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="31.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="31.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="31.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="31.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="31.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D36" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="29" y="101" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="4.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="4.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="4.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="4.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="4.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP9" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="29" y="91.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="58.21" y="111.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.175" y="85.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$9" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="45.11" y="85.89" smashed="yes" rot="R90"/>
+<element name="D37" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="29" y="107" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="25.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="25.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="25.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="25.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="25.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D38" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="49" y="107" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="37.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="37.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="37.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="37.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="37.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D39" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="49" y="127" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="31.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="31.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="31.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="31.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="31.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D40" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="29" y="127" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="4.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="4.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="4.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="4.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="4.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP10" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="29" y="117.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="58.21" y="137.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.175" y="111.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$10" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="45.11" y="111.89" smashed="yes" rot="R90"/>
+<element name="D41" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="55" y="3" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="51.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="51.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="51.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="51.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="51.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D42" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="75" y="3" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="63.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="63.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="63.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="63.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="63.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D43" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="75" y="23" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="57.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="57.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="57.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="57.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="57.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D44" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="55" y="23" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="30.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="30.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="30.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="30.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="30.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP11" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="55" y="13.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="84.21" y="33.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="58.175" y="7.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$11" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="71.11" y="7.89" smashed="yes" rot="R90"/>
+<element name="D45" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="55" y="29" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="51.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="51.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="51.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="51.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="51.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D46" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="75" y="29" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="63.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="63.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="63.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="63.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="63.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D47" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="75" y="49" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="57.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="57.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="57.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="57.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="57.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D48" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="55" y="49" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="30.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="30.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="30.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="30.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="30.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP12" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="55" y="39.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="84.21" y="59.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="58.175" y="33.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$12" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="71.11" y="33.89" smashed="yes" rot="R90"/>
+<element name="D49" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="55" y="55" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="51.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="51.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="51.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="51.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="51.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D50" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="75" y="55" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="63.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="63.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="63.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="63.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="63.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D51" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="75" y="75" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="57.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="57.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="57.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="57.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="57.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D52" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="55" y="75" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="30.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="30.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="30.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="30.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="30.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP13" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="55" y="65.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="84.21" y="85.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="58.175" y="59.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$13" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="71.11" y="59.89" smashed="yes" rot="R90"/>
+<element name="D53" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="55" y="81" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="51.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="51.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="51.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="51.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="51.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D54" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="75" y="81" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="63.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="63.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="63.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="63.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="63.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D55" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="75" y="101" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="57.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="57.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="57.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="57.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="57.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D56" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="55" y="101" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="30.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="30.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="30.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="30.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="30.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP14" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="55" y="91.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="84.21" y="111.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="58.175" y="85.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$14" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="71.11" y="85.89" smashed="yes" rot="R90"/>
+<element name="D57" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="55" y="107" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="51.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="51.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="51.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="51.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="51.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D58" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="75" y="107" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="63.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="63.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="63.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="63.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="63.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D59" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="75" y="127" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="57.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="57.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="57.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="57.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="57.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D60" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="55" y="127" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="30.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="30.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="30.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="30.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="30.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP15" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="55" y="117.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="84.21" y="137.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="58.175" y="111.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$15" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="71.11" y="111.89" smashed="yes" rot="R90"/>
+<element name="D61" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="81" y="3" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="77.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="77.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="77.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="77.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="77.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D62" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="101" y="3" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="89.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="89.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="89.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="89.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="89.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D63" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="101" y="23" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="83.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="83.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="83.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="83.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="83.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D64" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="81" y="23" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="56.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="56.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="56.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="56.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="56.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP16" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="81" y="13.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="110.21" y="33.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="84.175" y="7.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$16" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="97.11" y="7.89" smashed="yes" rot="R90"/>
+<element name="D65" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="81" y="29" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="77.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="77.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="77.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="77.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="77.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D66" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="101" y="29" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="89.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="89.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="89.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="89.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="89.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D67" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="101" y="49" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="83.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="83.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="83.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="83.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="83.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D68" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="81" y="49" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="56.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="56.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="56.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="56.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="56.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP17" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="81" y="39.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="110.21" y="59.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="84.175" y="33.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$17" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="97.11" y="33.89" smashed="yes" rot="R90"/>
+<element name="D69" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="81" y="55" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="77.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="77.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="77.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="77.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="77.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D70" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="101" y="55" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="89.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="89.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="89.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="89.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="89.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D71" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="101" y="75" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="83.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="83.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="83.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="83.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="83.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D72" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="81" y="75" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="56.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="56.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="56.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="56.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="56.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP18" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="81" y="65.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="110.21" y="85.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="84.175" y="59.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$18" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="97.11" y="59.89" smashed="yes" rot="R90"/>
+<element name="D73" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="81" y="81" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="77.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="77.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="77.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="77.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="77.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D74" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="101" y="81" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="89.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="89.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="89.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="89.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="89.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D75" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="101" y="101" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="83.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="83.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="83.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="83.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="83.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D76" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="81" y="101" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="56.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="56.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="56.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="56.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="56.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP19" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="81" y="91.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="110.21" y="111.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="84.175" y="85.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$19" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="97.11" y="85.89" smashed="yes" rot="R90"/>
+<element name="D77" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="81" y="107" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="77.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="77.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="77.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="77.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="77.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D78" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="101" y="107" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="89.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="89.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="89.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="89.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="89.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D79" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="101" y="127" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="83.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="83.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="83.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="83.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="83.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D80" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="81" y="127" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="56.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="56.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="56.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="56.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="56.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP20" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="81" y="117.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="110.21" y="137.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="84.175" y="111.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$20" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="97.11" y="111.89" smashed="yes" rot="R90"/>
+<element name="D81" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="107" y="3" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="103.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="103.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="103.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="103.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="103.19" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D82" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="127" y="3" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="115.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="115.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="115.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="115.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="115.57" y="-19.86" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D83" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="127" y="23" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="109.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="109.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="109.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="109.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="109.22" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D84" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="107" y="23" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="82.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="82.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="82.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="82.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="82.87" y="0.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP21" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="107" y="13.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="136.21" y="33.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="110.175" y="7.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$21" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="123.11" y="7.89" smashed="yes" rot="R90"/>
+<element name="D85" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="107" y="29" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="103.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="103.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="103.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="103.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="103.19" y="-1.48" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D86" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="127" y="29" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="115.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="115.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="115.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="115.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="115.57" y="6.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D87" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="127" y="49" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="109.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="109.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="109.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="109.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="109.22" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D88" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="107" y="49" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="82.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="82.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="82.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="82.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="82.87" y="26.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP22" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="107" y="39.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="136.21" y="59.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="110.175" y="33.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$22" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="123.11" y="33.89" smashed="yes" rot="R90"/>
+<element name="D89" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="107" y="55" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="103.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="103.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="103.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="103.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="103.19" y="24.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D90" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="127" y="55" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="115.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="115.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="115.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="115.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="115.57" y="32.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D91" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="127" y="75" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="109.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="109.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="109.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="109.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="109.22" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D92" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="107" y="75" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="82.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="82.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="82.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="82.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="82.87" y="52.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP23" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="107" y="65.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="136.21" y="85.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="110.175" y="59.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$23" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="123.11" y="59.89" smashed="yes" rot="R90"/>
+<element name="D93" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="107" y="81" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="103.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="103.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="103.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="103.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="103.19" y="50.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D94" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="127" y="81" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="115.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="115.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="115.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="115.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="115.57" y="58.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D95" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="127" y="101" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="109.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="109.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="109.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="109.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="109.22" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D96" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="107" y="101" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="82.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="82.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="82.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="82.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="82.87" y="78.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP24" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="107" y="91.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="136.21" y="111.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="110.175" y="85.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$24" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="123.11" y="85.89" smashed="yes" rot="R90"/>
+<element name="D97" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="107" y="107" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="103.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="103.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="103.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="103.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="103.19" y="76.52" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D98" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="127" y="107" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="115.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="115.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="115.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="115.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="115.57" y="84.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D99" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="127" y="127" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="109.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="109.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="109.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="109.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="109.22" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D100" library="opto-trans-siemens" library_urn="urn:adsk.eagle:library:317" package="BPX65" package3d_urn="urn:adsk.eagle:package:21791/1" value="BPX65" x="107" y="127" smashed="yes" rot="R270">
+<attribute name="MF" value="" x="82.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="BPX65." x="82.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="327451" x="82.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="06WX2764" x="82.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="0" x="82.87" y="104.14" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="JP25" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X05" package3d_urn="urn:adsk.eagle:package:22469/2" value="" x="107" y="117.5" smashed="yes" rot="R90">
+<attribute name="POPULARITY" value="69" x="136.21" y="137.82" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="110.175" y="111.15" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$25" library="ElcPartsLibrary" package="LRG_COUGAR" value="COUGAR_LOGO_LARGE" x="123.11" y="111.89" smashed="yes" rot="R90"/>
+</elements>
+<signals>
+<signal name="GND" airwireshidden="yes">
+<contactref element="JP1" pad="5"/>
+<contactref element="D1" pad="A"/>
+<contactref element="D2" pad="A"/>
+<contactref element="D4" pad="A"/>
+<contactref element="D3" pad="A"/>
+<polygon width="0.8128" layer="16">
+<vertex x="133" y="135"/>
+<vertex x="133" y="-3"/>
+<vertex x="-2" y="-3"/>
+<vertex x="-2" y="135"/>
+</polygon>
+</signal>
+<signal name="DIODE_1">
+<contactref element="D1" pad="K"/>
+<contactref element="JP1" pad="1"/>
+<wire x1="3" y1="8.42" x2="3.889" y2="7.531" width="0.8128" layer="16"/>
+<wire x1="3.889" y1="7.531" x2="3.889" y2="2.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_2">
+<contactref element="D2" pad="K"/>
+<contactref element="JP1" pad="2"/>
+<wire x1="3" y1="10.96" x2="20.14" y2="10.96" width="0.8128" layer="16"/>
+<wire x1="20.14" y1="10.96" x2="23.9" y2="7.2" width="0.8128" layer="16"/>
+<wire x1="23.9" y1="7.2" x2="23.9" y2="2.122" width="0.8128" layer="16"/>
+<wire x1="23.9" y1="2.122" x2="23.889" y2="2.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_3">
+<contactref element="D3" pad="K"/>
+<contactref element="JP1" pad="3"/>
+<wire x1="3" y1="13.5" x2="15.278" y2="13.5" width="0.8128" layer="16"/>
+<wire x1="15.278" y1="13.5" x2="23.889" y2="22.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_4">
+<contactref element="D4" pad="K"/>
+<contactref element="JP1" pad="4"/>
+<wire x1="3" y1="16.04" x2="4.04" y2="16.04" width="0.8128" layer="16"/>
+<wire x1="4.04" y1="16.04" x2="7" y2="19" width="0.8128" layer="16"/>
+<wire x1="7" y1="19" x2="7" y2="20" width="0.8128" layer="16"/>
+<wire x1="7" y1="20" x2="4.889" y2="22.111" width="0.8128" layer="16"/>
+<wire x1="4.889" y1="22.111" x2="3.889" y2="22.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND1" airwireshidden="yes">
+<contactref element="JP2" pad="5"/>
+<contactref element="D5" pad="A"/>
+<contactref element="D6" pad="A"/>
+<contactref element="D8" pad="A"/>
+<contactref element="D7" pad="A"/>
+<wire x1="3" y1="44.58" x2="22.111" y2="49.889" width="0" layer="19" extent="1-1"/>
+<wire x1="2.111" y1="49.889" x2="3" y2="44.58" width="0" layer="19" extent="1-1"/>
+<wire x1="2.111" y1="29.889" x2="3" y2="44.58" width="0" layer="19" extent="1-1"/>
+<wire x1="22.111" y1="29.889" x2="22.111" y2="49.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_5">
+<contactref element="D5" pad="K"/>
+<contactref element="JP2" pad="1"/>
+<wire x1="3" y1="34.42" x2="3.889" y2="33.531" width="0.8128" layer="16"/>
+<wire x1="3.889" y1="33.531" x2="3.889" y2="28.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_6">
+<contactref element="D6" pad="K"/>
+<contactref element="JP2" pad="2"/>
+<wire x1="3" y1="36.96" x2="20.14" y2="36.96" width="0.8128" layer="16"/>
+<wire x1="20.14" y1="36.96" x2="23.9" y2="33.2" width="0.8128" layer="16"/>
+<wire x1="23.9" y1="33.2" x2="23.9" y2="28.122" width="0.8128" layer="16"/>
+<wire x1="23.9" y1="28.122" x2="23.889" y2="28.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_7">
+<contactref element="D7" pad="K"/>
+<contactref element="JP2" pad="3"/>
+<wire x1="3" y1="39.5" x2="15.278" y2="39.5" width="0.8128" layer="16"/>
+<wire x1="15.278" y1="39.5" x2="23.889" y2="48.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_8">
+<contactref element="D8" pad="K"/>
+<contactref element="JP2" pad="4"/>
+<wire x1="3" y1="42.04" x2="4.04" y2="42.04" width="0.8128" layer="16"/>
+<wire x1="4.04" y1="42.04" x2="7" y2="45" width="0.8128" layer="16"/>
+<wire x1="7" y1="45" x2="7" y2="46" width="0.8128" layer="16"/>
+<wire x1="7" y1="46" x2="4.889" y2="48.111" width="0.8128" layer="16"/>
+<wire x1="4.889" y1="48.111" x2="3.889" y2="48.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND2" airwireshidden="yes">
+<contactref element="JP3" pad="5"/>
+<contactref element="D9" pad="A"/>
+<contactref element="D10" pad="A"/>
+<contactref element="D12" pad="A"/>
+<contactref element="D11" pad="A"/>
+<wire x1="3" y1="70.58" x2="22.111" y2="75.889" width="0" layer="19" extent="1-1"/>
+<wire x1="2.111" y1="75.889" x2="3" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="2.111" y1="55.889" x2="3" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="22.111" y1="55.889" x2="22.111" y2="75.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_9">
+<contactref element="D9" pad="K"/>
+<contactref element="JP3" pad="1"/>
+<wire x1="3" y1="60.42" x2="3.889" y2="59.531" width="0.8128" layer="16"/>
+<wire x1="3.889" y1="59.531" x2="3.889" y2="54.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_10">
+<contactref element="D10" pad="K"/>
+<contactref element="JP3" pad="2"/>
+<wire x1="3" y1="62.96" x2="20.14" y2="62.96" width="0.8128" layer="16"/>
+<wire x1="20.14" y1="62.96" x2="23.9" y2="59.2" width="0.8128" layer="16"/>
+<wire x1="23.9" y1="59.2" x2="23.9" y2="54.122" width="0.8128" layer="16"/>
+<wire x1="23.9" y1="54.122" x2="23.889" y2="54.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_11">
+<contactref element="D11" pad="K"/>
+<contactref element="JP3" pad="3"/>
+<wire x1="3" y1="65.5" x2="15.278" y2="65.5" width="0.8128" layer="16"/>
+<wire x1="15.278" y1="65.5" x2="23.889" y2="74.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_12">
+<contactref element="D12" pad="K"/>
+<contactref element="JP3" pad="4"/>
+<wire x1="3" y1="68.04" x2="4.04" y2="68.04" width="0.8128" layer="16"/>
+<wire x1="4.04" y1="68.04" x2="7" y2="71" width="0.8128" layer="16"/>
+<wire x1="7" y1="71" x2="7" y2="72" width="0.8128" layer="16"/>
+<wire x1="7" y1="72" x2="4.889" y2="74.111" width="0.8128" layer="16"/>
+<wire x1="4.889" y1="74.111" x2="3.889" y2="74.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND3" airwireshidden="yes">
+<contactref element="JP4" pad="5"/>
+<contactref element="D13" pad="A"/>
+<contactref element="D14" pad="A"/>
+<contactref element="D16" pad="A"/>
+<contactref element="D15" pad="A"/>
+<wire x1="3" y1="96.58" x2="22.111" y2="101.889" width="0" layer="19" extent="1-1"/>
+<wire x1="2.111" y1="101.889" x2="3" y2="96.58" width="0" layer="19" extent="1-1"/>
+<wire x1="2.111" y1="81.889" x2="3" y2="96.58" width="0" layer="19" extent="1-1"/>
+<wire x1="22.111" y1="81.889" x2="22.111" y2="101.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_13">
+<contactref element="D13" pad="K"/>
+<contactref element="JP4" pad="1"/>
+<wire x1="3" y1="86.42" x2="3.889" y2="85.531" width="0.8128" layer="16"/>
+<wire x1="3.889" y1="85.531" x2="3.889" y2="80.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_14">
+<contactref element="D14" pad="K"/>
+<contactref element="JP4" pad="2"/>
+<wire x1="3" y1="88.96" x2="20.14" y2="88.96" width="0.8128" layer="16"/>
+<wire x1="20.14" y1="88.96" x2="23.9" y2="85.2" width="0.8128" layer="16"/>
+<wire x1="23.9" y1="85.2" x2="23.9" y2="80.122" width="0.8128" layer="16"/>
+<wire x1="23.9" y1="80.122" x2="23.889" y2="80.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_15">
+<contactref element="D15" pad="K"/>
+<contactref element="JP4" pad="3"/>
+<wire x1="3" y1="91.5" x2="15.278" y2="91.5" width="0.8128" layer="16"/>
+<wire x1="15.278" y1="91.5" x2="23.889" y2="100.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_16">
+<contactref element="D16" pad="K"/>
+<contactref element="JP4" pad="4"/>
+<wire x1="3" y1="94.04" x2="4.04" y2="94.04" width="0.8128" layer="16"/>
+<wire x1="4.04" y1="94.04" x2="7" y2="97" width="0.8128" layer="16"/>
+<wire x1="7" y1="97" x2="7" y2="98" width="0.8128" layer="16"/>
+<wire x1="7" y1="98" x2="4.889" y2="100.111" width="0.8128" layer="16"/>
+<wire x1="4.889" y1="100.111" x2="3.889" y2="100.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND4" airwireshidden="yes">
+<contactref element="JP5" pad="5"/>
+<contactref element="D17" pad="A"/>
+<contactref element="D18" pad="A"/>
+<contactref element="D20" pad="A"/>
+<contactref element="D19" pad="A"/>
+<wire x1="3" y1="122.58" x2="22.111" y2="127.889" width="0" layer="19" extent="1-1"/>
+<wire x1="2.111" y1="127.889" x2="3" y2="122.58" width="0" layer="19" extent="1-1"/>
+<wire x1="2.111" y1="107.889" x2="3" y2="122.58" width="0" layer="19" extent="1-1"/>
+<wire x1="22.111" y1="107.889" x2="22.111" y2="127.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_17">
+<contactref element="D17" pad="K"/>
+<contactref element="JP5" pad="1"/>
+<wire x1="3" y1="112.42" x2="3.889" y2="111.531" width="0.8128" layer="16"/>
+<wire x1="3.889" y1="111.531" x2="3.889" y2="106.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_18">
+<contactref element="D18" pad="K"/>
+<contactref element="JP5" pad="2"/>
+<wire x1="3" y1="114.96" x2="20.14" y2="114.96" width="0.8128" layer="16"/>
+<wire x1="20.14" y1="114.96" x2="23.9" y2="111.2" width="0.8128" layer="16"/>
+<wire x1="23.9" y1="111.2" x2="23.9" y2="106.122" width="0.8128" layer="16"/>
+<wire x1="23.9" y1="106.122" x2="23.889" y2="106.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_19">
+<contactref element="D19" pad="K"/>
+<contactref element="JP5" pad="3"/>
+<wire x1="3" y1="117.5" x2="15.278" y2="117.5" width="0.8128" layer="16"/>
+<wire x1="15.278" y1="117.5" x2="23.889" y2="126.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_20">
+<contactref element="D20" pad="K"/>
+<contactref element="JP5" pad="4"/>
+<wire x1="3" y1="120.04" x2="4.04" y2="120.04" width="0.8128" layer="16"/>
+<wire x1="4.04" y1="120.04" x2="7" y2="123" width="0.8128" layer="16"/>
+<wire x1="7" y1="123" x2="7" y2="124" width="0.8128" layer="16"/>
+<wire x1="7" y1="124" x2="4.889" y2="126.111" width="0.8128" layer="16"/>
+<wire x1="4.889" y1="126.111" x2="3.889" y2="126.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND5" airwireshidden="yes">
+<contactref element="JP6" pad="5"/>
+<contactref element="D21" pad="A"/>
+<contactref element="D22" pad="A"/>
+<contactref element="D24" pad="A"/>
+<contactref element="D23" pad="A"/>
+<wire x1="29" y1="18.58" x2="48.111" y2="23.889" width="0" layer="19" extent="1-1"/>
+<wire x1="28.111" y1="23.889" x2="29" y2="18.58" width="0" layer="19" extent="1-1"/>
+<wire x1="28.111" y1="3.889" x2="29" y2="18.58" width="0" layer="19" extent="1-1"/>
+<wire x1="48.111" y1="3.889" x2="48.111" y2="23.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_21">
+<contactref element="D21" pad="K"/>
+<contactref element="JP6" pad="1"/>
+<wire x1="29" y1="8.42" x2="29.889" y2="7.531" width="0.8128" layer="16"/>
+<wire x1="29.889" y1="7.531" x2="29.889" y2="2.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_22">
+<contactref element="D22" pad="K"/>
+<contactref element="JP6" pad="2"/>
+<wire x1="29" y1="10.96" x2="46.14" y2="10.96" width="0.8128" layer="16"/>
+<wire x1="46.14" y1="10.96" x2="49.9" y2="7.2" width="0.8128" layer="16"/>
+<wire x1="49.9" y1="7.2" x2="49.9" y2="2.122" width="0.8128" layer="16"/>
+<wire x1="49.9" y1="2.122" x2="49.889" y2="2.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_23">
+<contactref element="D23" pad="K"/>
+<contactref element="JP6" pad="3"/>
+<wire x1="29" y1="13.5" x2="41.278" y2="13.5" width="0.8128" layer="16"/>
+<wire x1="41.278" y1="13.5" x2="49.889" y2="22.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_24">
+<contactref element="D24" pad="K"/>
+<contactref element="JP6" pad="4"/>
+<wire x1="29" y1="16.04" x2="30.04" y2="16.04" width="0.8128" layer="16"/>
+<wire x1="30.04" y1="16.04" x2="33" y2="19" width="0.8128" layer="16"/>
+<wire x1="33" y1="19" x2="33" y2="20" width="0.8128" layer="16"/>
+<wire x1="33" y1="20" x2="30.889" y2="22.111" width="0.8128" layer="16"/>
+<wire x1="30.889" y1="22.111" x2="29.889" y2="22.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND6" airwireshidden="yes">
+<contactref element="JP7" pad="5"/>
+<contactref element="D25" pad="A"/>
+<contactref element="D26" pad="A"/>
+<contactref element="D28" pad="A"/>
+<contactref element="D27" pad="A"/>
+<wire x1="29" y1="44.58" x2="48.111" y2="49.889" width="0" layer="19" extent="1-1"/>
+<wire x1="28.111" y1="49.889" x2="29" y2="44.58" width="0" layer="19" extent="1-1"/>
+<wire x1="28.111" y1="29.889" x2="29" y2="44.58" width="0" layer="19" extent="1-1"/>
+<wire x1="48.111" y1="29.889" x2="48.111" y2="49.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_25">
+<contactref element="D25" pad="K"/>
+<contactref element="JP7" pad="1"/>
+<wire x1="29" y1="34.42" x2="29.889" y2="33.531" width="0.8128" layer="16"/>
+<wire x1="29.889" y1="33.531" x2="29.889" y2="28.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_26">
+<contactref element="D26" pad="K"/>
+<contactref element="JP7" pad="2"/>
+<wire x1="29" y1="36.96" x2="46.14" y2="36.96" width="0.8128" layer="16"/>
+<wire x1="46.14" y1="36.96" x2="49.9" y2="33.2" width="0.8128" layer="16"/>
+<wire x1="49.9" y1="33.2" x2="49.9" y2="28.122" width="0.8128" layer="16"/>
+<wire x1="49.9" y1="28.122" x2="49.889" y2="28.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_27">
+<contactref element="D27" pad="K"/>
+<contactref element="JP7" pad="3"/>
+<wire x1="29" y1="39.5" x2="41.278" y2="39.5" width="0.8128" layer="16"/>
+<wire x1="41.278" y1="39.5" x2="49.889" y2="48.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_28">
+<contactref element="D28" pad="K"/>
+<contactref element="JP7" pad="4"/>
+<wire x1="29" y1="42.04" x2="30.04" y2="42.04" width="0.8128" layer="16"/>
+<wire x1="30.04" y1="42.04" x2="33" y2="45" width="0.8128" layer="16"/>
+<wire x1="33" y1="45" x2="33" y2="46" width="0.8128" layer="16"/>
+<wire x1="33" y1="46" x2="30.889" y2="48.111" width="0.8128" layer="16"/>
+<wire x1="30.889" y1="48.111" x2="29.889" y2="48.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND7" airwireshidden="yes">
+<contactref element="JP8" pad="5"/>
+<contactref element="D29" pad="A"/>
+<contactref element="D30" pad="A"/>
+<contactref element="D32" pad="A"/>
+<contactref element="D31" pad="A"/>
+<wire x1="29" y1="70.58" x2="48.111" y2="75.889" width="0" layer="19" extent="1-1"/>
+<wire x1="28.111" y1="75.889" x2="29" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="28.111" y1="55.889" x2="29" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="48.111" y1="55.889" x2="48.111" y2="75.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_29">
+<contactref element="D29" pad="K"/>
+<contactref element="JP8" pad="1"/>
+<wire x1="29" y1="60.42" x2="29.889" y2="59.531" width="0.8128" layer="16"/>
+<wire x1="29.889" y1="59.531" x2="29.889" y2="54.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_30">
+<contactref element="D30" pad="K"/>
+<contactref element="JP8" pad="2"/>
+<wire x1="29" y1="62.96" x2="46.14" y2="62.96" width="0.8128" layer="16"/>
+<wire x1="46.14" y1="62.96" x2="49.9" y2="59.2" width="0.8128" layer="16"/>
+<wire x1="49.9" y1="59.2" x2="49.9" y2="54.122" width="0.8128" layer="16"/>
+<wire x1="49.9" y1="54.122" x2="49.889" y2="54.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_31">
+<contactref element="D31" pad="K"/>
+<contactref element="JP8" pad="3"/>
+<wire x1="29" y1="65.5" x2="41.278" y2="65.5" width="0.8128" layer="16"/>
+<wire x1="41.278" y1="65.5" x2="49.889" y2="74.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_32">
+<contactref element="D32" pad="K"/>
+<contactref element="JP8" pad="4"/>
+<wire x1="29" y1="68.04" x2="30.04" y2="68.04" width="0.8128" layer="16"/>
+<wire x1="30.04" y1="68.04" x2="33" y2="71" width="0.8128" layer="16"/>
+<wire x1="33" y1="71" x2="33" y2="72" width="0.8128" layer="16"/>
+<wire x1="33" y1="72" x2="30.889" y2="74.111" width="0.8128" layer="16"/>
+<wire x1="30.889" y1="74.111" x2="29.889" y2="74.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND8" airwireshidden="yes">
+<contactref element="JP9" pad="5"/>
+<contactref element="D33" pad="A"/>
+<contactref element="D34" pad="A"/>
+<contactref element="D36" pad="A"/>
+<contactref element="D35" pad="A"/>
+<wire x1="29" y1="96.58" x2="48.111" y2="101.889" width="0" layer="19" extent="1-1"/>
+<wire x1="28.111" y1="101.889" x2="29" y2="96.58" width="0" layer="19" extent="1-1"/>
+<wire x1="28.111" y1="81.889" x2="29" y2="96.58" width="0" layer="19" extent="1-1"/>
+<wire x1="48.111" y1="81.889" x2="48.111" y2="101.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_33">
+<contactref element="D33" pad="K"/>
+<contactref element="JP9" pad="1"/>
+<wire x1="29" y1="86.42" x2="29.889" y2="85.531" width="0.8128" layer="16"/>
+<wire x1="29.889" y1="85.531" x2="29.889" y2="80.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_34">
+<contactref element="D34" pad="K"/>
+<contactref element="JP9" pad="2"/>
+<wire x1="29" y1="88.96" x2="46.14" y2="88.96" width="0.8128" layer="16"/>
+<wire x1="46.14" y1="88.96" x2="49.9" y2="85.2" width="0.8128" layer="16"/>
+<wire x1="49.9" y1="85.2" x2="49.9" y2="80.122" width="0.8128" layer="16"/>
+<wire x1="49.9" y1="80.122" x2="49.889" y2="80.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_35">
+<contactref element="D35" pad="K"/>
+<contactref element="JP9" pad="3"/>
+<wire x1="29" y1="91.5" x2="41.278" y2="91.5" width="0.8128" layer="16"/>
+<wire x1="41.278" y1="91.5" x2="49.889" y2="100.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_36">
+<contactref element="D36" pad="K"/>
+<contactref element="JP9" pad="4"/>
+<wire x1="29" y1="94.04" x2="30.04" y2="94.04" width="0.8128" layer="16"/>
+<wire x1="30.04" y1="94.04" x2="33" y2="97" width="0.8128" layer="16"/>
+<wire x1="33" y1="97" x2="33" y2="98" width="0.8128" layer="16"/>
+<wire x1="33" y1="98" x2="30.889" y2="100.111" width="0.8128" layer="16"/>
+<wire x1="30.889" y1="100.111" x2="29.889" y2="100.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND9" airwireshidden="yes">
+<contactref element="JP10" pad="5"/>
+<contactref element="D37" pad="A"/>
+<contactref element="D38" pad="A"/>
+<contactref element="D40" pad="A"/>
+<contactref element="D39" pad="A"/>
+<wire x1="29" y1="122.58" x2="48.111" y2="127.889" width="0" layer="19" extent="1-1"/>
+<wire x1="28.111" y1="127.889" x2="29" y2="122.58" width="0" layer="19" extent="1-1"/>
+<wire x1="28.111" y1="107.889" x2="29" y2="122.58" width="0" layer="19" extent="1-1"/>
+<wire x1="48.111" y1="107.889" x2="48.111" y2="127.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_37">
+<contactref element="D37" pad="K"/>
+<contactref element="JP10" pad="1"/>
+<wire x1="29" y1="112.42" x2="29.889" y2="111.531" width="0.8128" layer="16"/>
+<wire x1="29.889" y1="111.531" x2="29.889" y2="106.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_38">
+<contactref element="D38" pad="K"/>
+<contactref element="JP10" pad="2"/>
+<wire x1="29" y1="114.96" x2="46.14" y2="114.96" width="0.8128" layer="16"/>
+<wire x1="46.14" y1="114.96" x2="49.9" y2="111.2" width="0.8128" layer="16"/>
+<wire x1="49.9" y1="111.2" x2="49.9" y2="106.122" width="0.8128" layer="16"/>
+<wire x1="49.9" y1="106.122" x2="49.889" y2="106.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_39">
+<contactref element="D39" pad="K"/>
+<contactref element="JP10" pad="3"/>
+<wire x1="29" y1="117.5" x2="41.278" y2="117.5" width="0.8128" layer="16"/>
+<wire x1="41.278" y1="117.5" x2="49.889" y2="126.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_40">
+<contactref element="D40" pad="K"/>
+<contactref element="JP10" pad="4"/>
+<wire x1="29" y1="120.04" x2="30.04" y2="120.04" width="0.8128" layer="16"/>
+<wire x1="30.04" y1="120.04" x2="33" y2="123" width="0.8128" layer="16"/>
+<wire x1="33" y1="123" x2="33" y2="124" width="0.8128" layer="16"/>
+<wire x1="33" y1="124" x2="30.889" y2="126.111" width="0.8128" layer="16"/>
+<wire x1="30.889" y1="126.111" x2="29.889" y2="126.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND10" airwireshidden="yes">
+<contactref element="JP11" pad="5"/>
+<contactref element="D41" pad="A"/>
+<contactref element="D42" pad="A"/>
+<contactref element="D44" pad="A"/>
+<contactref element="D43" pad="A"/>
+<wire x1="55" y1="18.58" x2="74.111" y2="23.889" width="0" layer="19" extent="1-1"/>
+<wire x1="54.111" y1="23.889" x2="55" y2="18.58" width="0" layer="19" extent="1-1"/>
+<wire x1="54.111" y1="3.889" x2="55" y2="18.58" width="0" layer="19" extent="1-1"/>
+<wire x1="74.111" y1="3.889" x2="74.111" y2="23.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_41">
+<contactref element="D41" pad="K"/>
+<contactref element="JP11" pad="1"/>
+<wire x1="55" y1="8.42" x2="55.889" y2="7.531" width="0.8128" layer="16"/>
+<wire x1="55.889" y1="7.531" x2="55.889" y2="2.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_42">
+<contactref element="D42" pad="K"/>
+<contactref element="JP11" pad="2"/>
+<wire x1="55" y1="10.96" x2="72.14" y2="10.96" width="0.8128" layer="16"/>
+<wire x1="72.14" y1="10.96" x2="75.9" y2="7.2" width="0.8128" layer="16"/>
+<wire x1="75.9" y1="7.2" x2="75.9" y2="2.122" width="0.8128" layer="16"/>
+<wire x1="75.9" y1="2.122" x2="75.889" y2="2.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_43">
+<contactref element="D43" pad="K"/>
+<contactref element="JP11" pad="3"/>
+<wire x1="55" y1="13.5" x2="67.278" y2="13.5" width="0.8128" layer="16"/>
+<wire x1="67.278" y1="13.5" x2="75.889" y2="22.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_44">
+<contactref element="D44" pad="K"/>
+<contactref element="JP11" pad="4"/>
+<wire x1="55" y1="16.04" x2="56.04" y2="16.04" width="0.8128" layer="16"/>
+<wire x1="56.04" y1="16.04" x2="59" y2="19" width="0.8128" layer="16"/>
+<wire x1="59" y1="19" x2="59" y2="20" width="0.8128" layer="16"/>
+<wire x1="59" y1="20" x2="56.889" y2="22.111" width="0.8128" layer="16"/>
+<wire x1="56.889" y1="22.111" x2="55.889" y2="22.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND11" airwireshidden="yes">
+<contactref element="JP12" pad="5"/>
+<contactref element="D45" pad="A"/>
+<contactref element="D46" pad="A"/>
+<contactref element="D48" pad="A"/>
+<contactref element="D47" pad="A"/>
+<wire x1="55" y1="44.58" x2="74.111" y2="49.889" width="0" layer="19" extent="1-1"/>
+<wire x1="54.111" y1="49.889" x2="55" y2="44.58" width="0" layer="19" extent="1-1"/>
+<wire x1="54.111" y1="29.889" x2="55" y2="44.58" width="0" layer="19" extent="1-1"/>
+<wire x1="74.111" y1="29.889" x2="74.111" y2="49.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_45">
+<contactref element="D45" pad="K"/>
+<contactref element="JP12" pad="1"/>
+<wire x1="55" y1="34.42" x2="55.889" y2="33.531" width="0.8128" layer="16"/>
+<wire x1="55.889" y1="33.531" x2="55.889" y2="28.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_46">
+<contactref element="D46" pad="K"/>
+<contactref element="JP12" pad="2"/>
+<wire x1="55" y1="36.96" x2="72.14" y2="36.96" width="0.8128" layer="16"/>
+<wire x1="72.14" y1="36.96" x2="75.9" y2="33.2" width="0.8128" layer="16"/>
+<wire x1="75.9" y1="33.2" x2="75.9" y2="28.122" width="0.8128" layer="16"/>
+<wire x1="75.9" y1="28.122" x2="75.889" y2="28.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_47">
+<contactref element="D47" pad="K"/>
+<contactref element="JP12" pad="3"/>
+<wire x1="55" y1="39.5" x2="67.278" y2="39.5" width="0.8128" layer="16"/>
+<wire x1="67.278" y1="39.5" x2="75.889" y2="48.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_48">
+<contactref element="D48" pad="K"/>
+<contactref element="JP12" pad="4"/>
+<wire x1="55" y1="42.04" x2="56.04" y2="42.04" width="0.8128" layer="16"/>
+<wire x1="56.04" y1="42.04" x2="59" y2="45" width="0.8128" layer="16"/>
+<wire x1="59" y1="45" x2="59" y2="46" width="0.8128" layer="16"/>
+<wire x1="59" y1="46" x2="56.889" y2="48.111" width="0.8128" layer="16"/>
+<wire x1="56.889" y1="48.111" x2="55.889" y2="48.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND12" airwireshidden="yes">
+<contactref element="JP13" pad="5"/>
+<contactref element="D49" pad="A"/>
+<contactref element="D50" pad="A"/>
+<contactref element="D52" pad="A"/>
+<contactref element="D51" pad="A"/>
+<wire x1="55" y1="70.58" x2="74.111" y2="75.889" width="0" layer="19" extent="1-1"/>
+<wire x1="54.111" y1="75.889" x2="55" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="54.111" y1="55.889" x2="55" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="74.111" y1="55.889" x2="74.111" y2="75.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_49">
+<contactref element="D49" pad="K"/>
+<contactref element="JP13" pad="1"/>
+<wire x1="55" y1="60.42" x2="55.889" y2="59.531" width="0.8128" layer="16"/>
+<wire x1="55.889" y1="59.531" x2="55.889" y2="54.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_50">
+<contactref element="D50" pad="K"/>
+<contactref element="JP13" pad="2"/>
+<wire x1="55" y1="62.96" x2="72.14" y2="62.96" width="0.8128" layer="16"/>
+<wire x1="72.14" y1="62.96" x2="75.9" y2="59.2" width="0.8128" layer="16"/>
+<wire x1="75.9" y1="59.2" x2="75.9" y2="54.122" width="0.8128" layer="16"/>
+<wire x1="75.9" y1="54.122" x2="75.889" y2="54.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_51">
+<contactref element="D51" pad="K"/>
+<contactref element="JP13" pad="3"/>
+<wire x1="55" y1="65.5" x2="67.278" y2="65.5" width="0.8128" layer="16"/>
+<wire x1="67.278" y1="65.5" x2="75.889" y2="74.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_52">
+<contactref element="D52" pad="K"/>
+<contactref element="JP13" pad="4"/>
+<wire x1="55" y1="68.04" x2="56.04" y2="68.04" width="0.8128" layer="16"/>
+<wire x1="56.04" y1="68.04" x2="59" y2="71" width="0.8128" layer="16"/>
+<wire x1="59" y1="71" x2="59" y2="72" width="0.8128" layer="16"/>
+<wire x1="59" y1="72" x2="56.889" y2="74.111" width="0.8128" layer="16"/>
+<wire x1="56.889" y1="74.111" x2="55.889" y2="74.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND13" airwireshidden="yes">
+<contactref element="JP14" pad="5"/>
+<contactref element="D53" pad="A"/>
+<contactref element="D54" pad="A"/>
+<contactref element="D56" pad="A"/>
+<contactref element="D55" pad="A"/>
+<wire x1="55" y1="96.58" x2="74.111" y2="101.889" width="0" layer="19" extent="1-1"/>
+<wire x1="54.111" y1="101.889" x2="55" y2="96.58" width="0" layer="19" extent="1-1"/>
+<wire x1="54.111" y1="81.889" x2="55" y2="96.58" width="0" layer="19" extent="1-1"/>
+<wire x1="74.111" y1="81.889" x2="74.111" y2="101.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_53">
+<contactref element="D53" pad="K"/>
+<contactref element="JP14" pad="1"/>
+<wire x1="55" y1="86.42" x2="55.889" y2="85.531" width="0.8128" layer="16"/>
+<wire x1="55.889" y1="85.531" x2="55.889" y2="80.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_54">
+<contactref element="D54" pad="K"/>
+<contactref element="JP14" pad="2"/>
+<wire x1="55" y1="88.96" x2="72.14" y2="88.96" width="0.8128" layer="16"/>
+<wire x1="72.14" y1="88.96" x2="75.9" y2="85.2" width="0.8128" layer="16"/>
+<wire x1="75.9" y1="85.2" x2="75.9" y2="80.122" width="0.8128" layer="16"/>
+<wire x1="75.9" y1="80.122" x2="75.889" y2="80.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_55">
+<contactref element="D55" pad="K"/>
+<contactref element="JP14" pad="3"/>
+<wire x1="55" y1="91.5" x2="67.278" y2="91.5" width="0.8128" layer="16"/>
+<wire x1="67.278" y1="91.5" x2="75.889" y2="100.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_56">
+<contactref element="D56" pad="K"/>
+<contactref element="JP14" pad="4"/>
+<wire x1="55" y1="94.04" x2="56.04" y2="94.04" width="0.8128" layer="16"/>
+<wire x1="56.04" y1="94.04" x2="59" y2="97" width="0.8128" layer="16"/>
+<wire x1="59" y1="97" x2="59" y2="98" width="0.8128" layer="16"/>
+<wire x1="59" y1="98" x2="56.889" y2="100.111" width="0.8128" layer="16"/>
+<wire x1="56.889" y1="100.111" x2="55.889" y2="100.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND14" airwireshidden="yes">
+<contactref element="JP15" pad="5"/>
+<contactref element="D57" pad="A"/>
+<contactref element="D58" pad="A"/>
+<contactref element="D60" pad="A"/>
+<contactref element="D59" pad="A"/>
+<wire x1="55" y1="122.58" x2="74.111" y2="127.889" width="0" layer="19" extent="1-1"/>
+<wire x1="54.111" y1="127.889" x2="55" y2="122.58" width="0" layer="19" extent="1-1"/>
+<wire x1="54.111" y1="107.889" x2="55" y2="122.58" width="0" layer="19" extent="1-1"/>
+<wire x1="74.111" y1="107.889" x2="74.111" y2="127.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_57">
+<contactref element="D57" pad="K"/>
+<contactref element="JP15" pad="1"/>
+<wire x1="55" y1="112.42" x2="55.889" y2="111.531" width="0.8128" layer="16"/>
+<wire x1="55.889" y1="111.531" x2="55.889" y2="106.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_58">
+<contactref element="D58" pad="K"/>
+<contactref element="JP15" pad="2"/>
+<wire x1="55" y1="114.96" x2="72.14" y2="114.96" width="0.8128" layer="16"/>
+<wire x1="72.14" y1="114.96" x2="75.9" y2="111.2" width="0.8128" layer="16"/>
+<wire x1="75.9" y1="111.2" x2="75.9" y2="106.122" width="0.8128" layer="16"/>
+<wire x1="75.9" y1="106.122" x2="75.889" y2="106.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_59">
+<contactref element="D59" pad="K"/>
+<contactref element="JP15" pad="3"/>
+<wire x1="55" y1="117.5" x2="67.278" y2="117.5" width="0.8128" layer="16"/>
+<wire x1="67.278" y1="117.5" x2="75.889" y2="126.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_60">
+<contactref element="D60" pad="K"/>
+<contactref element="JP15" pad="4"/>
+<wire x1="55" y1="120.04" x2="56.04" y2="120.04" width="0.8128" layer="16"/>
+<wire x1="56.04" y1="120.04" x2="59" y2="123" width="0.8128" layer="16"/>
+<wire x1="59" y1="123" x2="59" y2="124" width="0.8128" layer="16"/>
+<wire x1="59" y1="124" x2="56.889" y2="126.111" width="0.8128" layer="16"/>
+<wire x1="56.889" y1="126.111" x2="55.889" y2="126.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND15" airwireshidden="yes">
+<contactref element="JP16" pad="5"/>
+<contactref element="D61" pad="A"/>
+<contactref element="D62" pad="A"/>
+<contactref element="D64" pad="A"/>
+<contactref element="D63" pad="A"/>
+<wire x1="81" y1="18.58" x2="100.111" y2="23.889" width="0" layer="19" extent="1-1"/>
+<wire x1="80.111" y1="23.889" x2="81" y2="18.58" width="0" layer="19" extent="1-1"/>
+<wire x1="80.111" y1="3.889" x2="81" y2="18.58" width="0" layer="19" extent="1-1"/>
+<wire x1="100.111" y1="3.889" x2="100.111" y2="23.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_61">
+<contactref element="D61" pad="K"/>
+<contactref element="JP16" pad="1"/>
+<wire x1="81" y1="8.42" x2="81.889" y2="7.531" width="0.8128" layer="16"/>
+<wire x1="81.889" y1="7.531" x2="81.889" y2="2.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_62">
+<contactref element="D62" pad="K"/>
+<contactref element="JP16" pad="2"/>
+<wire x1="81" y1="10.96" x2="98.14" y2="10.96" width="0.8128" layer="16"/>
+<wire x1="98.14" y1="10.96" x2="101.9" y2="7.2" width="0.8128" layer="16"/>
+<wire x1="101.9" y1="7.2" x2="101.9" y2="2.122" width="0.8128" layer="16"/>
+<wire x1="101.9" y1="2.122" x2="101.889" y2="2.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_63">
+<contactref element="D63" pad="K"/>
+<contactref element="JP16" pad="3"/>
+<wire x1="81" y1="13.5" x2="93.278" y2="13.5" width="0.8128" layer="16"/>
+<wire x1="93.278" y1="13.5" x2="101.889" y2="22.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_64">
+<contactref element="D64" pad="K"/>
+<contactref element="JP16" pad="4"/>
+<wire x1="81" y1="16.04" x2="82.04" y2="16.04" width="0.8128" layer="16"/>
+<wire x1="82.04" y1="16.04" x2="85" y2="19" width="0.8128" layer="16"/>
+<wire x1="85" y1="19" x2="85" y2="20" width="0.8128" layer="16"/>
+<wire x1="85" y1="20" x2="82.889" y2="22.111" width="0.8128" layer="16"/>
+<wire x1="82.889" y1="22.111" x2="81.889" y2="22.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND16" airwireshidden="yes">
+<contactref element="JP17" pad="5"/>
+<contactref element="D65" pad="A"/>
+<contactref element="D66" pad="A"/>
+<contactref element="D68" pad="A"/>
+<contactref element="D67" pad="A"/>
+<wire x1="81" y1="44.58" x2="100.111" y2="49.889" width="0" layer="19" extent="1-1"/>
+<wire x1="80.111" y1="49.889" x2="81" y2="44.58" width="0" layer="19" extent="1-1"/>
+<wire x1="80.111" y1="29.889" x2="81" y2="44.58" width="0" layer="19" extent="1-1"/>
+<wire x1="100.111" y1="29.889" x2="100.111" y2="49.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_65">
+<contactref element="D65" pad="K"/>
+<contactref element="JP17" pad="1"/>
+<wire x1="81" y1="34.42" x2="81.889" y2="33.531" width="0.8128" layer="16"/>
+<wire x1="81.889" y1="33.531" x2="81.889" y2="28.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_66">
+<contactref element="D66" pad="K"/>
+<contactref element="JP17" pad="2"/>
+<wire x1="81" y1="36.96" x2="98.14" y2="36.96" width="0.8128" layer="16"/>
+<wire x1="98.14" y1="36.96" x2="101.9" y2="33.2" width="0.8128" layer="16"/>
+<wire x1="101.9" y1="33.2" x2="101.9" y2="28.122" width="0.8128" layer="16"/>
+<wire x1="101.9" y1="28.122" x2="101.889" y2="28.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_67">
+<contactref element="D67" pad="K"/>
+<contactref element="JP17" pad="3"/>
+<wire x1="81" y1="39.5" x2="93.278" y2="39.5" width="0.8128" layer="16"/>
+<wire x1="93.278" y1="39.5" x2="101.889" y2="48.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_68">
+<contactref element="D68" pad="K"/>
+<contactref element="JP17" pad="4"/>
+<wire x1="81" y1="42.04" x2="82.04" y2="42.04" width="0.8128" layer="16"/>
+<wire x1="82.04" y1="42.04" x2="85" y2="45" width="0.8128" layer="16"/>
+<wire x1="85" y1="45" x2="85" y2="46" width="0.8128" layer="16"/>
+<wire x1="85" y1="46" x2="82.889" y2="48.111" width="0.8128" layer="16"/>
+<wire x1="82.889" y1="48.111" x2="81.889" y2="48.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND17" airwireshidden="yes">
+<contactref element="JP18" pad="5"/>
+<contactref element="D69" pad="A"/>
+<contactref element="D70" pad="A"/>
+<contactref element="D72" pad="A"/>
+<contactref element="D71" pad="A"/>
+<wire x1="81" y1="70.58" x2="100.111" y2="75.889" width="0" layer="19" extent="1-1"/>
+<wire x1="80.111" y1="75.889" x2="81" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="80.111" y1="55.889" x2="81" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="100.111" y1="55.889" x2="100.111" y2="75.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_69">
+<contactref element="D69" pad="K"/>
+<contactref element="JP18" pad="1"/>
+<wire x1="81" y1="60.42" x2="81.889" y2="59.531" width="0.8128" layer="16"/>
+<wire x1="81.889" y1="59.531" x2="81.889" y2="54.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_70">
+<contactref element="D70" pad="K"/>
+<contactref element="JP18" pad="2"/>
+<wire x1="81" y1="62.96" x2="98.14" y2="62.96" width="0.8128" layer="16"/>
+<wire x1="98.14" y1="62.96" x2="101.9" y2="59.2" width="0.8128" layer="16"/>
+<wire x1="101.9" y1="59.2" x2="101.9" y2="54.122" width="0.8128" layer="16"/>
+<wire x1="101.9" y1="54.122" x2="101.889" y2="54.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_71">
+<contactref element="D71" pad="K"/>
+<contactref element="JP18" pad="3"/>
+<wire x1="81" y1="65.5" x2="93.278" y2="65.5" width="0.8128" layer="16"/>
+<wire x1="93.278" y1="65.5" x2="101.889" y2="74.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_72">
+<contactref element="D72" pad="K"/>
+<contactref element="JP18" pad="4"/>
+<wire x1="81" y1="68.04" x2="82.04" y2="68.04" width="0.8128" layer="16"/>
+<wire x1="82.04" y1="68.04" x2="85" y2="71" width="0.8128" layer="16"/>
+<wire x1="85" y1="71" x2="85" y2="72" width="0.8128" layer="16"/>
+<wire x1="85" y1="72" x2="82.889" y2="74.111" width="0.8128" layer="16"/>
+<wire x1="82.889" y1="74.111" x2="81.889" y2="74.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND18" airwireshidden="yes">
+<contactref element="JP19" pad="5"/>
+<contactref element="D73" pad="A"/>
+<contactref element="D74" pad="A"/>
+<contactref element="D76" pad="A"/>
+<contactref element="D75" pad="A"/>
+<wire x1="81" y1="96.58" x2="100.111" y2="101.889" width="0" layer="19" extent="1-1"/>
+<wire x1="80.111" y1="101.889" x2="81" y2="96.58" width="0" layer="19" extent="1-1"/>
+<wire x1="80.111" y1="81.889" x2="81" y2="96.58" width="0" layer="19" extent="1-1"/>
+<wire x1="100.111" y1="81.889" x2="100.111" y2="101.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_73">
+<contactref element="D73" pad="K"/>
+<contactref element="JP19" pad="1"/>
+<wire x1="81" y1="86.42" x2="81.889" y2="85.531" width="0.8128" layer="16"/>
+<wire x1="81.889" y1="85.531" x2="81.889" y2="80.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_74">
+<contactref element="D74" pad="K"/>
+<contactref element="JP19" pad="2"/>
+<wire x1="81" y1="88.96" x2="98.14" y2="88.96" width="0.8128" layer="16"/>
+<wire x1="98.14" y1="88.96" x2="101.9" y2="85.2" width="0.8128" layer="16"/>
+<wire x1="101.9" y1="85.2" x2="101.9" y2="80.122" width="0.8128" layer="16"/>
+<wire x1="101.9" y1="80.122" x2="101.889" y2="80.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_75">
+<contactref element="D75" pad="K"/>
+<contactref element="JP19" pad="3"/>
+<wire x1="81" y1="91.5" x2="93.278" y2="91.5" width="0.8128" layer="16"/>
+<wire x1="93.278" y1="91.5" x2="101.889" y2="100.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_76">
+<contactref element="D76" pad="K"/>
+<contactref element="JP19" pad="4"/>
+<wire x1="81" y1="94.04" x2="82.04" y2="94.04" width="0.8128" layer="16"/>
+<wire x1="82.04" y1="94.04" x2="85" y2="97" width="0.8128" layer="16"/>
+<wire x1="85" y1="97" x2="85" y2="98" width="0.8128" layer="16"/>
+<wire x1="85" y1="98" x2="82.889" y2="100.111" width="0.8128" layer="16"/>
+<wire x1="82.889" y1="100.111" x2="81.889" y2="100.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND19" airwireshidden="yes">
+<contactref element="JP20" pad="5"/>
+<contactref element="D77" pad="A"/>
+<contactref element="D78" pad="A"/>
+<contactref element="D80" pad="A"/>
+<contactref element="D79" pad="A"/>
+<wire x1="81" y1="122.58" x2="100.111" y2="127.889" width="0" layer="19" extent="1-1"/>
+<wire x1="80.111" y1="127.889" x2="81" y2="122.58" width="0" layer="19" extent="1-1"/>
+<wire x1="80.111" y1="107.889" x2="81" y2="122.58" width="0" layer="19" extent="1-1"/>
+<wire x1="100.111" y1="107.889" x2="100.111" y2="127.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_77">
+<contactref element="D77" pad="K"/>
+<contactref element="JP20" pad="1"/>
+<wire x1="81" y1="112.42" x2="81.889" y2="111.531" width="0.8128" layer="16"/>
+<wire x1="81.889" y1="111.531" x2="81.889" y2="106.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_78">
+<contactref element="D78" pad="K"/>
+<contactref element="JP20" pad="2"/>
+<wire x1="81" y1="114.96" x2="98.14" y2="114.96" width="0.8128" layer="16"/>
+<wire x1="98.14" y1="114.96" x2="101.9" y2="111.2" width="0.8128" layer="16"/>
+<wire x1="101.9" y1="111.2" x2="101.9" y2="106.122" width="0.8128" layer="16"/>
+<wire x1="101.9" y1="106.122" x2="101.889" y2="106.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_79">
+<contactref element="D79" pad="K"/>
+<contactref element="JP20" pad="3"/>
+<wire x1="81" y1="117.5" x2="93.278" y2="117.5" width="0.8128" layer="16"/>
+<wire x1="93.278" y1="117.5" x2="101.889" y2="126.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_80">
+<contactref element="D80" pad="K"/>
+<contactref element="JP20" pad="4"/>
+<wire x1="81" y1="120.04" x2="82.04" y2="120.04" width="0.8128" layer="16"/>
+<wire x1="82.04" y1="120.04" x2="85" y2="123" width="0.8128" layer="16"/>
+<wire x1="85" y1="123" x2="85" y2="124" width="0.8128" layer="16"/>
+<wire x1="85" y1="124" x2="82.889" y2="126.111" width="0.8128" layer="16"/>
+<wire x1="82.889" y1="126.111" x2="81.889" y2="126.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND20" airwireshidden="yes">
+<contactref element="JP21" pad="5"/>
+<contactref element="D81" pad="A"/>
+<contactref element="D82" pad="A"/>
+<contactref element="D84" pad="A"/>
+<contactref element="D83" pad="A"/>
+<wire x1="107" y1="18.58" x2="126.111" y2="23.889" width="0" layer="19" extent="1-1"/>
+<wire x1="106.111" y1="23.889" x2="107" y2="18.58" width="0" layer="19" extent="1-1"/>
+<wire x1="106.111" y1="3.889" x2="107" y2="18.58" width="0" layer="19" extent="1-1"/>
+<wire x1="126.111" y1="3.889" x2="126.111" y2="23.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_81">
+<contactref element="D81" pad="K"/>
+<contactref element="JP21" pad="1"/>
+<wire x1="107" y1="8.42" x2="107.889" y2="7.531" width="0.8128" layer="16"/>
+<wire x1="107.889" y1="7.531" x2="107.889" y2="2.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_82">
+<contactref element="D82" pad="K"/>
+<contactref element="JP21" pad="2"/>
+<wire x1="107" y1="10.96" x2="124.14" y2="10.96" width="0.8128" layer="16"/>
+<wire x1="124.14" y1="10.96" x2="127.9" y2="7.2" width="0.8128" layer="16"/>
+<wire x1="127.9" y1="7.2" x2="127.9" y2="2.122" width="0.8128" layer="16"/>
+<wire x1="127.9" y1="2.122" x2="127.889" y2="2.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_83">
+<contactref element="D83" pad="K"/>
+<contactref element="JP21" pad="3"/>
+<wire x1="107" y1="13.5" x2="119.278" y2="13.5" width="0.8128" layer="16"/>
+<wire x1="119.278" y1="13.5" x2="127.889" y2="22.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_84">
+<contactref element="D84" pad="K"/>
+<contactref element="JP21" pad="4"/>
+<wire x1="107" y1="16.04" x2="108.04" y2="16.04" width="0.8128" layer="16"/>
+<wire x1="108.04" y1="16.04" x2="111" y2="19" width="0.8128" layer="16"/>
+<wire x1="111" y1="19" x2="111" y2="20" width="0.8128" layer="16"/>
+<wire x1="111" y1="20" x2="108.889" y2="22.111" width="0.8128" layer="16"/>
+<wire x1="108.889" y1="22.111" x2="107.889" y2="22.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND21" airwireshidden="yes">
+<contactref element="JP22" pad="5"/>
+<contactref element="D85" pad="A"/>
+<contactref element="D86" pad="A"/>
+<contactref element="D88" pad="A"/>
+<contactref element="D87" pad="A"/>
+<wire x1="107" y1="44.58" x2="126.111" y2="49.889" width="0" layer="19" extent="1-1"/>
+<wire x1="106.111" y1="49.889" x2="107" y2="44.58" width="0" layer="19" extent="1-1"/>
+<wire x1="106.111" y1="29.889" x2="107" y2="44.58" width="0" layer="19" extent="1-1"/>
+<wire x1="126.111" y1="29.889" x2="126.111" y2="49.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_85">
+<contactref element="D85" pad="K"/>
+<contactref element="JP22" pad="1"/>
+<wire x1="107" y1="34.42" x2="107.889" y2="33.531" width="0.8128" layer="16"/>
+<wire x1="107.889" y1="33.531" x2="107.889" y2="28.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_86">
+<contactref element="D86" pad="K"/>
+<contactref element="JP22" pad="2"/>
+<wire x1="107" y1="36.96" x2="124.14" y2="36.96" width="0.8128" layer="16"/>
+<wire x1="124.14" y1="36.96" x2="127.9" y2="33.2" width="0.8128" layer="16"/>
+<wire x1="127.9" y1="33.2" x2="127.9" y2="28.122" width="0.8128" layer="16"/>
+<wire x1="127.9" y1="28.122" x2="127.889" y2="28.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_87">
+<contactref element="D87" pad="K"/>
+<contactref element="JP22" pad="3"/>
+<wire x1="107" y1="39.5" x2="119.278" y2="39.5" width="0.8128" layer="16"/>
+<wire x1="119.278" y1="39.5" x2="127.889" y2="48.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_88">
+<contactref element="D88" pad="K"/>
+<contactref element="JP22" pad="4"/>
+<wire x1="107" y1="42.04" x2="108.04" y2="42.04" width="0.8128" layer="16"/>
+<wire x1="108.04" y1="42.04" x2="111" y2="45" width="0.8128" layer="16"/>
+<wire x1="111" y1="45" x2="111" y2="46" width="0.8128" layer="16"/>
+<wire x1="111" y1="46" x2="108.889" y2="48.111" width="0.8128" layer="16"/>
+<wire x1="108.889" y1="48.111" x2="107.889" y2="48.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND22" airwireshidden="yes">
+<contactref element="JP23" pad="5"/>
+<contactref element="D89" pad="A"/>
+<contactref element="D90" pad="A"/>
+<contactref element="D92" pad="A"/>
+<contactref element="D91" pad="A"/>
+<wire x1="107" y1="70.58" x2="126.111" y2="75.889" width="0" layer="19" extent="1-1"/>
+<wire x1="106.111" y1="75.889" x2="107" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="106.111" y1="55.889" x2="107" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="126.111" y1="55.889" x2="126.111" y2="75.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_89">
+<contactref element="D89" pad="K"/>
+<contactref element="JP23" pad="1"/>
+<wire x1="107" y1="60.42" x2="107.889" y2="59.531" width="0.8128" layer="16"/>
+<wire x1="107.889" y1="59.531" x2="107.889" y2="54.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_90">
+<contactref element="D90" pad="K"/>
+<contactref element="JP23" pad="2"/>
+<wire x1="107" y1="62.96" x2="124.14" y2="62.96" width="0.8128" layer="16"/>
+<wire x1="124.14" y1="62.96" x2="127.9" y2="59.2" width="0.8128" layer="16"/>
+<wire x1="127.9" y1="59.2" x2="127.9" y2="54.122" width="0.8128" layer="16"/>
+<wire x1="127.9" y1="54.122" x2="127.889" y2="54.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_91">
+<contactref element="D91" pad="K"/>
+<contactref element="JP23" pad="3"/>
+<wire x1="107" y1="65.5" x2="119.278" y2="65.5" width="0.8128" layer="16"/>
+<wire x1="119.278" y1="65.5" x2="127.889" y2="74.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_92">
+<contactref element="D92" pad="K"/>
+<contactref element="JP23" pad="4"/>
+<wire x1="107" y1="68.04" x2="108.04" y2="68.04" width="0.8128" layer="16"/>
+<wire x1="108.04" y1="68.04" x2="111" y2="71" width="0.8128" layer="16"/>
+<wire x1="111" y1="71" x2="111" y2="72" width="0.8128" layer="16"/>
+<wire x1="111" y1="72" x2="108.889" y2="74.111" width="0.8128" layer="16"/>
+<wire x1="108.889" y1="74.111" x2="107.889" y2="74.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND23" airwireshidden="yes">
+<contactref element="JP24" pad="5"/>
+<contactref element="D93" pad="A"/>
+<contactref element="D94" pad="A"/>
+<contactref element="D96" pad="A"/>
+<contactref element="D95" pad="A"/>
+<wire x1="107" y1="96.58" x2="126.111" y2="101.889" width="0" layer="19" extent="1-1"/>
+<wire x1="106.111" y1="101.889" x2="107" y2="96.58" width="0" layer="19" extent="1-1"/>
+<wire x1="106.111" y1="81.889" x2="107" y2="96.58" width="0" layer="19" extent="1-1"/>
+<wire x1="126.111" y1="81.889" x2="126.111" y2="101.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_93">
+<contactref element="D93" pad="K"/>
+<contactref element="JP24" pad="1"/>
+<wire x1="107" y1="86.42" x2="107.889" y2="85.531" width="0.8128" layer="16"/>
+<wire x1="107.889" y1="85.531" x2="107.889" y2="80.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_94">
+<contactref element="D94" pad="K"/>
+<contactref element="JP24" pad="2"/>
+<wire x1="107" y1="88.96" x2="124.14" y2="88.96" width="0.8128" layer="16"/>
+<wire x1="124.14" y1="88.96" x2="127.9" y2="85.2" width="0.8128" layer="16"/>
+<wire x1="127.9" y1="85.2" x2="127.9" y2="80.122" width="0.8128" layer="16"/>
+<wire x1="127.9" y1="80.122" x2="127.889" y2="80.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_95">
+<contactref element="D95" pad="K"/>
+<contactref element="JP24" pad="3"/>
+<wire x1="107" y1="91.5" x2="119.278" y2="91.5" width="0.8128" layer="16"/>
+<wire x1="119.278" y1="91.5" x2="127.889" y2="100.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_96">
+<contactref element="D96" pad="K"/>
+<contactref element="JP24" pad="4"/>
+<wire x1="107" y1="94.04" x2="108.04" y2="94.04" width="0.8128" layer="16"/>
+<wire x1="108.04" y1="94.04" x2="111" y2="97" width="0.8128" layer="16"/>
+<wire x1="111" y1="97" x2="111" y2="98" width="0.8128" layer="16"/>
+<wire x1="111" y1="98" x2="108.889" y2="100.111" width="0.8128" layer="16"/>
+<wire x1="108.889" y1="100.111" x2="107.889" y2="100.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="GND24" airwireshidden="yes">
+<contactref element="JP25" pad="5"/>
+<contactref element="D97" pad="A"/>
+<contactref element="D98" pad="A"/>
+<contactref element="D100" pad="A"/>
+<contactref element="D99" pad="A"/>
+<wire x1="107" y1="122.58" x2="126.111" y2="127.889" width="0" layer="19" extent="1-1"/>
+<wire x1="106.111" y1="127.889" x2="107" y2="122.58" width="0" layer="19" extent="1-1"/>
+<wire x1="106.111" y1="107.889" x2="107" y2="122.58" width="0" layer="19" extent="1-1"/>
+<wire x1="126.111" y1="107.889" x2="126.111" y2="127.889" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="DIODE_97">
+<contactref element="D97" pad="K"/>
+<contactref element="JP25" pad="1"/>
+<wire x1="107" y1="112.42" x2="107.889" y2="111.531" width="0.8128" layer="16"/>
+<wire x1="107.889" y1="111.531" x2="107.889" y2="106.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_98">
+<contactref element="D98" pad="K"/>
+<contactref element="JP25" pad="2"/>
+<wire x1="107" y1="114.96" x2="124.14" y2="114.96" width="0.8128" layer="16"/>
+<wire x1="124.14" y1="114.96" x2="127.9" y2="111.2" width="0.8128" layer="16"/>
+<wire x1="127.9" y1="111.2" x2="127.9" y2="106.122" width="0.8128" layer="16"/>
+<wire x1="127.9" y1="106.122" x2="127.889" y2="106.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_99">
+<contactref element="D99" pad="K"/>
+<contactref element="JP25" pad="3"/>
+<wire x1="107" y1="117.5" x2="119.278" y2="117.5" width="0.8128" layer="16"/>
+<wire x1="119.278" y1="117.5" x2="127.889" y2="126.111" width="0.8128" layer="16"/>
+</signal>
+<signal name="DIODE_100">
+<contactref element="D100" pad="K"/>
+<contactref element="JP25" pad="4"/>
+<wire x1="107" y1="120.04" x2="108.04" y2="120.04" width="0.8128" layer="16"/>
+<wire x1="108.04" y1="120.04" x2="111" y2="123" width="0.8128" layer="16"/>
+<wire x1="111" y1="123" x2="111" y2="124" width="0.8128" layer="16"/>
+<wire x1="111" y1="124" x2="108.889" y2="126.111" width="0.8128" layer="16"/>
+<wire x1="108.889" y1="126.111" x2="107.889" y2="126.111" width="0.8128" layer="16"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
